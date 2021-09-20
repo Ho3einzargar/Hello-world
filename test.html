@@ -1,0 +1,76 @@
+<html class="backmain">   
+    <head>
+        <title>test project</title>
+        <link rel="stylesheet" href="css/style.css">            
+    </head>
+    <body>
+        
+        <header>
+            <div class="divkoli">
+                <a class="head1">Landing</a>
+                <div>
+                    <a class="head">Home</a>
+                    <a class="head">Features</a>
+                    <a class="head">Reviews</a>
+                    <a class="head">Pricing</a>
+                    <a class="head">FAQ</a>
+                    <a class="head2">Get Started</a>
+                </div>
+                 
+            </div>
+        </header>
+        
+        <main>
+            
+            <div class="formsdiv">
+                        <div>
+                            <p class="Fly">
+                                Fly makes you faster
+                            </p>
+                                <form>
+                                    <input type="button" class="buttonleft" value="See Pricing">
+                                </form>
+                               
+            
+                        </div>
+               
+                <div class="forms">
+                   
+                    
+                    <h2 class="HeadForm">Sign Up For Free</h2>
+                    
+                        <form>
+                            <label for="fname"></label><br>
+                            <input class="input1"type="text"  id="fullname" value="" onchange="Fn()"   placeholder="Full name"><br>
+                            
+                            <label for="fname"></label><br>
+                            <input class="input1" type="text" id="lastname" value="" onchange="Ln()" placeholder="Last Name"><br>
+                            
+                            <label for="fname"></label><br>
+                            <input class="input1" type="text" id="emailname" value="" onchange="Email()" placeholder="Email"><br>
+
+                            <select name="Type" class="sex" onchange="selector()" id="gender">
+                                <optgroup label="Sex"></optgroup>
+                                <option value="none">none</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+
+                            <input type="button" class="button" onclick="localstorage(); emptyfield()" value="Register"><br>
+                        
+
+                         
+                        </form>
+            </div>
+            
+        </div>
+    </main>
+    
+    <footer>
+        
+    </footer>
+    
+    <script src="js/test.js"></script>
+</body>
+
+</html>
